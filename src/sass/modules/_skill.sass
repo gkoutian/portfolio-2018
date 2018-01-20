@@ -1,0 +1,49 @@
+#skill 
+    margin-top: 340px
+    margin-bottom: 5    0px
+    text-align: center
+    h3
+        color: $color-1 
+        font-family: $font-1
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 20px
+        margin-bottom: 70px
+        &:before, &:after
+            display: inline-block
+            content: ''
+            width: 100px
+            height: 3px
+            margin: 5px 20px
+            background-color: $color-1
+            @media screen and (max-width: 420px)
+                width: 30px
+        @media screen and (max-width: 420px)
+            margin-bottom: 20px
+    h4 
+        color: $color-2
+        font-family: $font-2
+        text-transform: capitalize
+        font-size: 35px
+        font-weight: bold
+        margin: 70px 0
+        @media screen and (max-width: 420px)
+            margin: 40px 0
+    ul 
+        li 
+            display: inline-block
+            font-family: $font-1
+            text-transform: uppercase
+            font-weight: bold
+            color: $color-2
+            margin: 10px 20px
+            @media screen and (max-width: 420px)
+                display: block
+            &:before
+                content: ''
+                display: inline-block
+                width: 10px
+                margin-right: 10px
+                border-radius: 50%
+                height: 10px
+                background-color: $color-1
